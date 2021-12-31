@@ -29,6 +29,7 @@ def readDisplayVideo():
         #for breaking out of the loop, here loop will break once 'q' is pressed
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
+    #cap.release()
 
 # Reading from webcam
 def startWebcam():
@@ -48,5 +49,6 @@ def startWebcam():
         #for breaking out of the loop, here loop will break once 'q' is pressed
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
+    cap.release()
 
 startWebcam()
