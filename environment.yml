@@ -1,0 +1,8 @@
+name: OpenCV3.7.6
+channels:
+  - defaults
+dependencies:
+  - python=3.7.6
+  - pip
+  - pip:
+    - pip-tools
